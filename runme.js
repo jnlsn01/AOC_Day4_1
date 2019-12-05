@@ -2,7 +2,7 @@ var start = 147981;
 var end = 691423;
 var passdiff = 0;
 
-for(let current=147981; current<=end; current++){
+for(let current=start; current<=end; current++){
                 let doublecheck = 0;
 				let mystring = current.toString();
 				let check1 = Number(mystring.substr(0,1));
